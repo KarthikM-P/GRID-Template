@@ -1,9 +1,17 @@
-
-
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { Filter } from "../Molecules/Filter";
 import { Table } from "../Organisms/Table";
+import { Table as ReactTable } from "@tanstack/react-table";
 
-export const TableTemplate = ({ table, searchdata, onSearchChange, onEdit, onRowReorder }) => {
+type TableTemplateProps = {
+    table: ReactTable<any>;  
+    searchdata: string;
+    onSearchChange: (e: React.ChangeEvent<HTMLInputElement>) => void;
+    onEdit: (cell: any) => void;
+    onRowReorder: (oldIndex: number, newIndex: number) => void;
+};
+
+export const TableTemplate = ({ table, searchdata, onSearchChange, onEdit, onRowReorder }: TableTemplateProps) => {
     return (
         <div className="table-container">
             <h1>GRID TABLE</h1>
@@ -14,6 +22,3 @@ export const TableTemplate = ({ table, searchdata, onSearchChange, onEdit, onRow
         </div>
     );
 };
-
-
-

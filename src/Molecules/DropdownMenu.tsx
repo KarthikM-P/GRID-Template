@@ -1,6 +1,12 @@
 import { Button } from "../Atoms/Button";
 
-export const DropdownMenu = ({ onPinLeft, onPinRight, onUnpin }) => (
+type DropdownMenuProps = {
+    onPinLeft: () => void;
+    onPinRight: () => void;
+    onUnpin: () => void;
+};
+
+export const DropdownMenu = ({ onPinLeft, onPinRight, onUnpin }: DropdownMenuProps) => (
     <div className="dropdown-menu">
         <Button onClick={onPinLeft}>⬅️</Button>
         <Button onClick={onPinRight}>➡️</Button>

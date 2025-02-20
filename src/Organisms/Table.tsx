@@ -1,12 +1,19 @@
-import { flexRender } from "@tanstack/react-table";
+/* eslint-disable @typescript-eslint/no-explicit-any */
+import { flexRender, Row, Table as ReactTable } from "@tanstack/react-table";
 import { TableRow } from "./TableRow";
 import { DndContext, closestCenter } from "@dnd-kit/core";
 import { SortableContext } from "@dnd-kit/sortable";
 
-export const Table = ({ table, onEdit, onRowReorder }) => {
-    const rows = table.getRowModel().rows;
+type TableProps<TData> = {
+    table: ReactTable<TData>; 
+    onEdit: (cell: any) => void;
+    onRowReorder: (oldIndex: number, newIndex: number) => void;
+};
 
-    const handleRowDragEnd = (event) => {
+export const Table = <TData,>({ table, onEdit, onRowReorder }: TableProps<TData>) => {
+    const rows = table.getRowModel().rows as Row<TData>[]; 
+
+    const handleRowDragEnd = (event: any) => {
         const { active, over } = event;
         if (!over || active.id === over.id) return;
 
@@ -17,7 +24,6 @@ export const Table = ({ table, onEdit, onRowReorder }) => {
             onRowReorder(oldIndex, newIndex);
         }
     };
-
 
     return (
         <table className="custom-table">
@@ -33,10 +39,10 @@ export const Table = ({ table, onEdit, onRowReorder }) => {
                 ))}
             </thead>
             <DndContext collisionDetection={closestCenter} onDragEnd={handleRowDragEnd}>
-                <SortableContext items={rows.map((row) => row.id)}>
+                <SortableContext items={rows.map((row) => row.id as string)}>
                     <tbody>
                         {rows.map((row) => (
-                            <TableRow key={row.id} row={row} onEdit={onEdit} />
+                            <TableRow key={row.id as string} row={row} onEdit={onEdit} />
                         ))}
                     </tbody>
                 </SortableContext>
