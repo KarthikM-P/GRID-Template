@@ -1,7 +1,8 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { CSS } from "@dnd-kit/utilities";
 import { useSortable} from "@dnd-kit/sortable";
 
-const DraggableColumnHeader = ({ id, label }) => {
+const DraggableColumnHeader = ({ id, label }:any) => {
     const { attributes, listeners, setNodeRef, transform, transition } = useSortable({ id });
 
     return (
