@@ -1,0 +1,502 @@
+[
+    {
+        "investment_id": 1,
+        "investment_type": "Index Funds",
+        "country": "India",
+        "investor_name": "Liam Martinez",
+        "amount_invested": 38981.97,
+        "return_percentage": 7.29,
+        "risk_level": "High",
+        "description": "Emerging market investment opportunity."
+    },
+    {
+        "investment_id": 2,
+        "investment_type": "Mutual Funds",
+        "country": "USA",
+        "investor_name": "Olivia Wilson",
+        "amount_invested": 40926.5,
+        "return_percentage": 13.54,
+        "risk_level": "Low",
+        "description": "Emerging market investment opportunity."
+    },
+    {
+        "investment_id": 3,
+        "investment_type": "Mutual Funds",
+        "country": "UK",
+        "investor_name": "Sophia Johnson",
+        "amount_invested": 49001.94,
+        "return_percentage": -2.48,
+        "risk_level": "Medium",
+        "description": "Diversified portfolio for stable growth."
+    },
+    {
+        "investment_id": 4,
+        "investment_type": "Bonds",
+        "country": "Japan",
+        "investor_name": "Noah Lewis",
+        "amount_invested": 14005.38,
+        "return_percentage": 11.17,
+        "risk_level": "High",
+        "description": "Long-term investment with steady returns."
+    },
+    {
+        "investment_id": 5,
+        "investment_type": "Stocks",
+        "country": "Japan",
+        "investor_name": "Liam Martinez",
+        "amount_invested": 42759.8,
+        "return_percentage": 20.76,
+        "risk_level": "High",
+        "description": "Passive investment with minimal risk."
+    },
+    {
+        "investment_id": 6,
+        "investment_type": "Mutual Funds",
+        "country": "USA",
+        "investor_name": "Ava Thompson",
+        "amount_invested": 32522.29,
+        "return_percentage": 24.31,
+        "risk_level": "Medium",
+        "description": "Passive investment with minimal risk."
+    },
+    {
+        "investment_id": 7,
+        "investment_type": "Mutual Funds",
+        "country": "India",
+        "investor_name": "Ava Thompson",
+        "amount_invested": 14435.57,
+        "return_percentage": -9.4,
+        "risk_level": "Low",
+        "description": "Long-term investment with steady returns."
+    },
+    {
+        "investment_id": 8,
+        "investment_type": "Cryptocurrency",
+        "country": "France",
+        "investor_name": "John Doe",
+        "amount_invested": 16206.25,
+        "return_percentage": 8.8,
+        "risk_level": "Medium",
+        "description": "Long-term investment with steady returns."
+    },
+    {
+        "investment_id": 9,
+        "investment_type": "Real Estate",
+        "country": "Australia",
+        "investor_name": "Sophia Johnson",
+        "amount_invested": 24919.21,
+        "return_percentage": 16.38,
+        "risk_level": "Medium",
+        "description": "Emerging market investment opportunity."
+    },
+    {
+        "investment_id": 10,
+        "investment_type": "Gold",
+        "country": "Australia",
+        "investor_name": "Olivia Wilson",
+        "amount_invested": 27811.67,
+        "return_percentage": 24.8,
+        "risk_level": "High",
+        "description": "Passive investment with minimal risk."
+    },
+    {
+        "investment_id": 11,
+        "investment_type": "Real Estate",
+        "country": "India",
+        "investor_name": "Ethan Clark",
+        "amount_invested": 12432.59,
+        "return_percentage": 9.27,
+        "risk_level": "Low",
+        "description": "Diversified portfolio for stable growth."
+    },
+    {
+        "investment_id": 12,
+        "investment_type": "Stocks",
+        "country": "China",
+        "investor_name": "Liam Martinez",
+        "amount_invested": 29357.13,
+        "return_percentage": 0.28,
+        "risk_level": "Medium",
+        "description": "Emerging market investment opportunity."
+    },
+    {
+        "investment_id": 13,
+        "investment_type": "ETFs",
+        "country": "China",
+        "investor_name": "Ava Thompson",
+        "amount_invested": 9424.45,
+        "return_percentage": 19.29,
+        "risk_level": "Medium",
+        "description": "Diversified portfolio for stable growth."
+    },
+    {
+        "investment_id": 14,
+        "investment_type": "Stocks",
+        "country": "Japan",
+        "investor_name": "Sophia Johnson",
+        "amount_invested": 45773.88,
+        "return_percentage": 18.46,
+        "risk_level": "Low",
+        "description": "Emerging market investment opportunity."
+    },
+    {
+        "investment_id": 15,
+        "investment_type": "Bonds",
+        "country": "Australia",
+        "investor_name": "Ethan Clark",
+        "amount_invested": 30747.2,
+        "return_percentage": 17.38,
+        "risk_level": "Medium",
+        "description": "High risk, high reward investment."
+    },
+    {
+        "investment_id": 16,
+        "investment_type": "Cryptocurrency",
+        "country": "Japan",
+        "investor_name": "Sophia Johnson",
+        "amount_invested": 41370.24,
+        "return_percentage": -6.4,
+        "risk_level": "High",
+        "description": "High risk, high reward investment."
+    },
+    {
+        "investment_id": 17,
+        "investment_type": "Bonds",
+        "country": "UK",
+        "investor_name": "John Doe",
+        "amount_invested": 31041.62,
+        "return_percentage": 15.16,
+        "risk_level": "High",
+        "description": "Long-term investment with steady returns."
+    },
+    {
+        "investment_id": 18,
+        "investment_type": "Index Funds",
+        "country": "China",
+        "investor_name": "Ava Thompson",
+        "amount_invested": 22465.56,
+        "return_percentage": -2.87,
+        "risk_level": "Medium",
+        "description": "Diversified portfolio for stable growth."
+    },
+    {
+        "investment_id": 19,
+        "investment_type": "Cryptocurrency",
+        "country": "Canada",
+        "investor_name": "Olivia Wilson",
+        "amount_invested": 16885.82,
+        "return_percentage": 1.71,
+        "risk_level": "Medium",
+        "description": "Emerging market investment opportunity."
+    },
+    {
+        "investment_id": 20,
+        "investment_type": "Cryptocurrency",
+        "country": "China",
+        "investor_name": "Ethan Clark",
+        "amount_invested": 25770.05,
+        "return_percentage": 14.53,
+        "risk_level": "Medium",
+        "description": "High risk, high reward investment."
+    },
+    {
+        "investment_id": 21,
+        "investment_type": "Cryptocurrency",
+        "country": "USA",
+        "investor_name": "Michael Smith",
+        "amount_invested": 37076.06,
+        "return_percentage": 19.59,
+        "risk_level": "High",
+        "description": "Passive investment with minimal risk."
+    },
+    {
+        "investment_id": 22,
+        "investment_type": "Bonds",
+        "country": "UK",
+        "investor_name": "Emma Watson",
+        "amount_invested": 40576.65,
+        "return_percentage": 20.31,
+        "risk_level": "Low",
+        "description": "High risk, high reward investment."
+    },
+    {
+        "investment_id": 23,
+        "investment_type": "ETFs",
+        "country": "Canada",
+        "investor_name": "Ethan Clark",
+        "amount_invested": 43927.59,
+        "return_percentage": 3.15,
+        "risk_level": "Low",
+        "description": "Diversified portfolio for stable growth."
+    },
+    {
+        "investment_id": 24,
+        "investment_type": "Bonds",
+        "country": "China",
+        "investor_name": "Emma Watson",
+        "amount_invested": 21972.78,
+        "return_percentage": 21.4,
+        "risk_level": "High",
+        "description": "Diversified portfolio for stable growth."
+    },
+    {
+        "investment_id": 25,
+        "investment_type": "Bonds",
+        "country": "Japan",
+        "investor_name": "Olivia Wilson",
+        "amount_invested": 34721.6,
+        "return_percentage": 3.87,
+        "risk_level": "High",
+        "description": "High risk, high reward investment."
+    },
+    {
+        "investment_id": 26,
+        "investment_type": "Cryptocurrency",
+        "country": "Canada",
+        "investor_name": "Olivia Wilson",
+        "amount_invested": 12912.76,
+        "return_percentage": 10.93,
+        "risk_level": "High",
+        "description": "Emerging market investment opportunity."
+    },
+    {
+        "investment_id": 27,
+        "investment_type": "Cryptocurrency",
+        "country": "Canada",
+        "investor_name": "Ava Thompson",
+        "amount_invested": 44640.94,
+        "return_percentage": -3.51,
+        "risk_level": "Medium",
+        "description": "Passive investment with minimal risk."
+    },
+    {
+        "investment_id": 28,
+        "investment_type": "Gold",
+        "country": "UK",
+        "investor_name": "Noah Lewis",
+        "amount_invested": 26064.96,
+        "return_percentage": 14.04,
+        "risk_level": "High",
+        "description": "Diversified portfolio for stable growth."
+    },
+    {
+        "investment_id": 29,
+        "investment_type": "Index Funds",
+        "country": "Japan",
+        "investor_name": "Michael Smith",
+        "amount_invested": 27632.66,
+        "return_percentage": 0.23,
+        "risk_level": "High",
+        "description": "Passive investment with minimal risk."
+    },
+    {
+        "investment_id": 30,
+        "investment_type": "Index Funds",
+        "country": "USA",
+        "investor_name": "Ava Thompson",
+        "amount_invested": 37638.65,
+        "return_percentage": 7.69,
+        "risk_level": "Medium",
+        "description": "Emerging market investment opportunity."
+    },
+    {
+        "investment_id": 31,
+        "investment_type": "ETFs",
+        "country": "UK",
+        "investor_name": "Liam Martinez",
+        "amount_invested": 11536.67,
+        "return_percentage": -6.59,
+        "risk_level": "High",
+        "description": "Diversified portfolio for stable growth."
+    },
+    {
+        "investment_id": 32,
+        "investment_type": "Stocks",
+        "country": "India",
+        "investor_name": "Ava Thompson",
+        "amount_invested": 45679.55,
+        "return_percentage": 20.3,
+        "risk_level": "High",
+        "description": "Diversified portfolio for stable growth."
+    },
+    {
+        "investment_id": 33,
+        "investment_type": "Index Funds",
+        "country": "Canada",
+        "investor_name": "Olivia Wilson",
+        "amount_invested": 17623.86,
+        "return_percentage": 18.32,
+        "risk_level": "Medium",
+        "description": "Emerging market investment opportunity."
+    },
+    {
+        "investment_id": 34,
+        "investment_type": "ETFs",
+        "country": "India",
+        "investor_name": "Olivia Wilson",
+        "amount_invested": 6391.81,
+        "return_percentage": 6.36,
+        "risk_level": "Low",
+        "description": "Passive investment with minimal risk."
+    },
+    {
+        "investment_id": 35,
+        "investment_type": "Real Estate",
+        "country": "Canada",
+        "investor_name": "Liam Martinez",
+        "amount_invested": 26072.01,
+        "return_percentage": 18.86,
+        "risk_level": "Low",
+        "description": "High risk, high reward investment."
+    },
+    {
+        "investment_id": 36,
+        "investment_type": "Stocks",
+        "country": "Japan",
+        "investor_name": "Liam Martinez",
+        "amount_invested": 39962.94,
+        "return_percentage": 21.25,
+        "risk_level": "Low",
+        "description": "Emerging market investment opportunity."
+    },
+    {
+        "investment_id": 37,
+        "investment_type": "Stocks",
+        "country": "France",
+        "investor_name": "Sophia Johnson",
+        "amount_invested": 24353.44,
+        "return_percentage": 23.08,
+        "risk_level": "Medium",
+        "description": "Long-term investment with steady returns."
+    },
+    {
+        "investment_id": 38,
+        "investment_type": "Mutual Funds",
+        "country": "Brazil",
+        "investor_name": "Michael Smith",
+        "amount_invested": 28654.88,
+        "return_percentage": -2.61,
+        "risk_level": "Medium",
+        "description": "Diversified portfolio for stable growth."
+    },
+    {
+        "investment_id": 39,
+        "investment_type": "Cryptocurrency",
+        "country": "Brazil",
+        "investor_name": "Emma Watson",
+        "amount_invested": 34781.77,
+        "return_percentage": 16.28,
+        "risk_level": "High",
+        "description": "Long-term investment with steady returns."
+    },
+    {
+        "investment_id": 40,
+        "investment_type": "Index Funds",
+        "country": "Canada",
+        "investor_name": "Noah Lewis",
+        "amount_invested": 24194.47,
+        "return_percentage": 12.21,
+        "risk_level": "High",
+        "description": "Emerging market investment opportunity."
+    },
+    {
+        "investment_id": 41,
+        "investment_type": "Stocks",
+        "country": "Australia",
+        "investor_name": "Ava Thompson",
+        "amount_invested": 24552.68,
+        "return_percentage": 20.37,
+        "risk_level": "High",
+        "description": "Emerging market investment opportunity."
+    },
+    {
+        "investment_id": 42,
+        "investment_type": "Stocks",
+        "country": "UK",
+        "investor_name": "Noah Lewis",
+        "amount_invested": 13030.71,
+        "return_percentage": 0.34,
+        "risk_level": "Medium",
+        "description": "High risk, high reward investment."
+    },
+    {
+        "investment_id": 43,
+        "investment_type": "Gold",
+        "country": "Brazil",
+        "investor_name": "James Brown",
+        "amount_invested": 22147.67,
+        "return_percentage": 21.17,
+        "risk_level": "High",
+        "description": "Passive investment with minimal risk."
+    },
+    {
+        "investment_id": 44,
+        "investment_type": "Index Funds",
+        "country": "China",
+        "investor_name": "John Doe",
+        "amount_invested": 44689.71,
+        "return_percentage": 19.46,
+        "risk_level": "High",
+        "description": "Emerging market investment opportunity."
+    },
+    {
+        "investment_id": 45,
+        "investment_type": "Gold",
+        "country": "UK",
+        "investor_name": "Ava Thompson",
+        "amount_invested": 29373.44,
+        "return_percentage": 13.15,
+        "risk_level": "Medium",
+        "description": "Emerging market investment opportunity."
+    },
+    {
+        "investment_id": 46,
+        "investment_type": "Stocks",
+        "country": "UK",
+        "investor_name": "Ava Thompson",
+        "amount_invested": 21149.81,
+        "return_percentage": 0.76,
+        "risk_level": "Low",
+        "description": "Long-term investment with steady returns."
+    },
+    {
+        "investment_id": 47,
+        "investment_type": "Gold",
+        "country": "Japan",
+        "investor_name": "Olivia Wilson",
+        "amount_invested": 13536.25,
+        "return_percentage": -7.84,
+        "risk_level": "Medium",
+        "description": "Diversified portfolio for stable growth."
+    },
+    {
+        "investment_id": 48,
+        "investment_type": "Real Estate",
+        "country": "Canada",
+        "investor_name": "Liam Martinez",
+        "amount_invested": 20943.62,
+        "return_percentage": -6.76,
+        "risk_level": "High",
+        "description": "High risk, high reward investment."
+    },
+    {
+        "investment_id": 49,
+        "investment_type": "Gold",
+        "country": "China",
+        "investor_name": "Emma Watson",
+        "amount_invested": 32724.74,
+        "return_percentage": 8.4,
+        "risk_level": "Medium",
+        "description": "Emerging market investment opportunity."
+    },
+    {
+        "investment_id": 50,
+        "investment_type": "Index Funds",
+        "country": "UK",
+        "investor_name": "Ava Thompson",
+        "amount_invested": 8256.9,
+        "return_percentage": 6.54,
+        "risk_level": "High",
+        "description": "Diversified portfolio for stable growth."
+    }
+]

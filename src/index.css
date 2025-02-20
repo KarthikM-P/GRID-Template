@@ -1,0 +1,279 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Arial", sans-serif;
+}
+
+/* Table Container */
+.table-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    background-color: #181818; /* Dark AG Grid background */
+    padding: 20px;
+    gap: 20px;
+}
+
+/* index.css */
+.draggable-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-grow: 1;
+}
+
+.drag-handle {
+    cursor: grab;
+    user-select: none;
+    padding: 0 4px;
+    opacity: 0.6;
+    transition: opacity 0.2s;
+}
+
+.drag-handle:hover {
+    opacity: 1;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+.header-actions {
+    position: relative;
+    margin-left: auto;
+}
+
+/* Table Wrapper */
+/* Update the table-wrapper styles */
+.table-wrapper {
+    width: 90%;
+    height: 50%;
+    background: #2a2a2a;
+    border: 1px solid #444;
+    border-radius: 8px;
+    overflow: auto; /* Changed from hidden to auto */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Add these styles */
+.custom-table {
+    width: max-content;
+    min-width: 100%;
+}
+
+.custom-table th,
+.custom-table td {
+    white-space: nowrap; /* Prevent text wrapping */
+}
+
+/* Optional: Add scrollbar styling */
+.table-wrapper::-webkit-scrollbar {
+    height: 8px;
+    width: 8px;
+}
+
+.table-wrapper::-webkit-scrollbar-track {
+    background: #2a2a2a;
+}
+
+.table-wrapper::-webkit-scrollbar-thumb {
+    background: #555;
+    border-radius: 4px;
+}
+
+.table-wrapper::-webkit-scrollbar-thumb:hover {
+    background: #777;
+}
+
+.filter-container {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 10px;
+}
+
+.filter-label {
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.filter-input {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+    width: 200px;
+    transition: all 0.3s ease;
+    font-size: 14px;
+}
+
+.filter-input:hover {
+    background-color: #3a3a3a;
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.1);
+}
+
+.filter-input:focus {
+    outline: none;
+    background-color: #444;
+    box-shadow: 0 0 0 2px #555;
+}
+
+/* Optional: Add a smooth transition for the placeholder */
+.filter-input::placeholder {
+    color: #888;
+    transition: opacity 0.3s ease;
+}
+
+.filter-input:hover::placeholder {
+    opacity: 0.7;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    position: relative;
+    gap: 10px;
+    z-index: 1;
+}
+
+
+.header-actions {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.dots-button {
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 2px 5px;
+    font-size: 18px;
+    line-height: 1;
+}
+
+.dots-button:hover {
+    background-color: #444;
+    border-radius: 4px;
+}
+
+.dropdown-menu {
+    position: absolute;
+    right: 0;
+    top: 100%;
+    background: #333;
+    border: 1px solid #555;
+    border-radius: 4px;
+    z-index: 100;
+    min-width: 120px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.dropdown-menu button {
+    display: block;
+    width: 100%;
+    padding: 8px 12px;
+    background: none;
+    border: none;
+    color: white;
+    text-align: left;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.dropdown-menu button:hover {
+    background-color: #444;
+}
+
+/* Adjust table header spacing */
+.custom-table th {
+    padding: 12px 15px;
+    min-width: 120px;
+}
+
+/* Add gap between columns */
+.custom-table th:not(:last-child) {
+    border-right: 2px solid #444;
+}
+
+/* Table */
+.custom-table {
+    width: 100%;
+    border-collapse: collapse;
+    color: white;
+    font-family: "Arial", sans-serif;
+}
+
+/* Table Header */
+.custom-table thead {
+    background: linear-gradient(45deg, #333, #444);
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.custom-table th {
+    padding: 12px;
+    text-align: left;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-bottom: 2px solid #555;
+}
+
+/* Table Rows */
+.custom-table tbody tr {
+    background-color: #252525;
+    transition: background 0.3s ease;
+}
+
+/* Striped Rows */
+.custom-table tbody tr:nth-child(even) {
+    background-color: #1e1e1e;
+}
+
+/* Hover Effect */
+.custom-table tbody tr:hover {
+    background-color: #373737;
+    cursor: pointer;
+}
+
+/* Table Cells */
+.custom-table td {
+    padding: 12px;
+    text-align: center;
+    font-size: 14px;
+    border-bottom: 1px solid #444;
+}
+
+/* Scrollable Table */
+.table-wrapper {
+    overflow-y: auto;
+    max-height: 500px;
+}
+
+/* AG Grid-style Borders */
+.custom-table th, .custom-table td {
+    border-right: 1px solid #444;
+}
+
+/* Remove Right Border on Last Column */
+.custom-table th:last-child, .custom-table td:last-child {
+    border-right: none;
+}
